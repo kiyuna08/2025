@@ -69,6 +69,6 @@ selected_country = st.selectbox("나라를 선택하세요", list(travel_data.ke
 
 # 결과 출력
 if selected_country:
-    st.subheader(f"{selected_country} 추천 여행지 🏖")
+    st.subheader(f"{selected_country} 추천 여행지! 🏖")
     for place in travel_data[selected_country]:
         st.write(f"- {place}")
