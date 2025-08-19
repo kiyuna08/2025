@@ -1,5 +1,4 @@
 import streamlit as st
-import random
 
 # 계절 & 분위기별 여행지 + 음식 데이터
 travel_data = {
